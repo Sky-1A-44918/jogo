@@ -248,7 +248,7 @@ function draw() {
   // Movimentação do jogador
   if (keyIsDown(LEFT_ARROW) && moveLeft) {
     x -= speed;
-    r = img1;
+    r = img2;
   } else if (keyIsDown(RIGHT_ARROW) && moveRight) {
     x += speed;
     r = img1;
